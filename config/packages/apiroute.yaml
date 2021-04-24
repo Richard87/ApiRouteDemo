@@ -1,0 +1,8 @@
+api_route:
+  openapi:
+    title: "ApiRoute Example"
+    version: "0.1.0"
+  swagger: true
+  base_path: "/api"
+  resources:
+    - "../src/"
