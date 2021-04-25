@@ -2,9 +2,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src",
-            "Tests\\": "tests",
-            "Richard87\\ApiRoute\\": "lib/ApiRoute",
-            "Richard87\\ApiRouteBundle\\": "lib/ApiRouteBundle"
+            "Tests\\": "tests"
         }
     },
     "require-dev": {
@@ -30,8 +28,14 @@
         "php": "^8.0",
         "doctrine/inflector": "^2.0",
         "symfony/routing": "^5.0",
-        "symfony/contracts": "^5.0"
+        "richard87/api-route": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ApiRoute"
+        }
+    ],
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd"

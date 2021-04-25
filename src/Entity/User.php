@@ -2,17 +2,17 @@
 
 namespace App\Entity;
 
-use App\Attributes\Description;
-use App\Attributes\Rest;
-use App\Attributes\CollectionRoute;
-use App\Attributes\Property;
-use App\Attributes\ApiRoute;
 use App\Controller\FetchImportantMessagesController;
 use App\Controller\InviteController;
 use App\Entity\Dto\ResetPassword;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\PersistentCollection;
+use Richard87\ApiRoute\Attributes\Description;
+use Richard87\ApiRoute\Attributes\Property;
+use Richard87\ApiRoute\Attributes\Rest;
+use Richard87\ApiRoute\Attributes\CollectionRoute;
+use Richard87\ApiRoute\Attributes\ApiRoute;
 
 /**
  * @ORM\Entity

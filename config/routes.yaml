@@ -1,3 +1,13 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+api_route:
+  resource: src/Controller
+  type: api_route
+
+
+api_route2:
+  resource: src/Entity
+  type: api_route

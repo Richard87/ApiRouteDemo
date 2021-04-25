@@ -2,10 +2,10 @@
 
 namespace Tests\Service;
 
-use App\Service\ApiLoader;
-use App\Service\FindClassDescriptors;
-use App\Service\OpenApiGenerator;
 use PHPUnit\Framework\TestCase;
+use Richard87\ApiRoute\Service\ApiLoader;
+use Richard87\ApiRoute\Service\FindClassDescriptors;
+use Richard87\ApiRoute\Service\OpenApiGenerator;
 use Symfony\Component\Routing\RouterInterface;
 
 class OpenApiGeneratorTest extends TestCase

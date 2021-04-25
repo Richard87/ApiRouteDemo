@@ -2,8 +2,8 @@
 
 namespace App\Entity;
 
-use App\Attributes\Property;
-use App\Attributes\Rest;
+use Richard87\ApiRoute\Attributes\Rest;
+use Richard87\ApiRoute\Attributes\Property;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
